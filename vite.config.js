@@ -1,20 +1,11 @@
 /* ============================================================================
  * vite.config.js
  *
- * Copyright 2026 trmoo
- * SPDX-License-Identifier: Apache-2.0
+ * © 2026 티쳐무 · 모든 권리 보유
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * 무단 배포 및 상업적 이용을 금합니다. 학교 수업 목적으로만 이용해 주세요.
+ * 그 밖의 이용(재배포·2차 저작물·수업 외 목적)은 먼저 문의해 주세요.
+ * 오픈소스 라이선스를 붙이지 않았습니다 — 자세한 내용은 LICENSE 파일을 보세요.
  * ========================================================================== */
 
 import { defineConfig } from 'vite';
@@ -27,7 +18,8 @@ export default defineConfig({
   plugins: [viteSingleFile()],
   // 개발 서버 포트. PORT 환경변수가 있으면 그것을 쓴다.
   server: { port: Number(process.env.PORT) || 5173 },
-  // 압축할 때 /*! … */ 로 시작하는 「법적 고지」 주석은 지우지 않고 그 자리에 남긴다.
+  // 압축할 때 /*! 로 시작하는 「법적 고지」 주석은 지우지 않고 그 자리에 남긴다.
+  // (이것을 빼면 저작권 표시가 배포물에서 통째로 사라진다)
   esbuild: { legalComments: 'inline' },
   build: {
     outDir: 'dist',
@@ -35,10 +27,11 @@ export default defineConfig({
     cssCodeSplit: false,
     rollupOptions: {
       output: {
-        // 묶인 코드 맨 위에 저작권·라이선스 한 줄을 남긴다.
+        // 묶인 코드 맨 위에 저작권 한 줄을 남긴다.
         // (소스 파일마다 붙여 둔 긴 주석은 압축 과정에서 지워지므로 여기서 다시 넣어 준다)
-        banner: '/*! 정보 노트 실습실 (informatics-note-lab) | Copyright 2026 trmoo | '
-          + 'SPDX-License-Identifier: Apache-2.0 | http://www.apache.org/licenses/LICENSE-2.0 */',
+        banner: '/*! 정보 노트 실습실 | © 2026 티쳐무 · 모든 권리 보유 | '
+          + '무단 배포 및 상업적 이용 금지 · 학교 수업 목적으로만 이용 | '
+          + 'https://github.com/trmoo/informatics_trmoo */',
       },
     },
   },

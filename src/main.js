@@ -7,20 +7,11 @@
  *     그 아래 알약 단추 = 학습지 번호
  *   주소창의 #대단원/학습지 로 위치가 남으므로 새로고침해도 보던 곳이 그대로 열린다.
  *
- * Copyright 2026 trmoo
- * SPDX-License-Identifier: Apache-2.0
+ * © 2026 티쳐무 · 모든 권리 보유
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * 무단 배포 및 상업적 이용을 금합니다. 학교 수업 목적으로만 이용해 주세요.
+ * 그 밖의 이용(재배포·2차 저작물·수업 외 목적)은 먼저 문의해 주세요.
+ * 오픈소스 라이선스를 붙이지 않았습니다 — 자세한 내용은 LICENSE 파일을 보세요.
  * ========================================================================== */
 
 import './style.css';
@@ -187,13 +178,7 @@ app.append(topbar, subNav, main,
   h('div', { class: 'footer' },
     h('div', {}, '정보 노트 실습실 · 2022 개정 교육과정 고등학교 「정보」 · 학생 개인정보를 저장하지 않습니다.'),
     h('div', { style: { marginTop: '6px' } },
-      'Copyright 2026 trmoo · ',
-      h('a', {
-        href: 'http://www.apache.org/licenses/LICENSE-2.0',
-        target: '_blank', rel: 'noopener',
-        style: { color: 'inherit' },
-      }, 'Apache License 2.0'),
-      ' 에 따라 누구나 자유롭게 쓰고 고치고 나눌 수 있습니다.'),
+      '© 2026 티쳐무 · 모든 권리 보유 · 무단 배포 및 상업적 이용을 금합니다. 학교 수업 목적으로만 이용해 주세요.'),
     h('div', { style: { marginTop: '4px' } },
       '설치·수업 활용 안내는 함께 들어 있는 ',
       h('a', { href: './설치안내.html', target: '_blank', rel: 'noopener', style: { color: 'inherit' } }, '설치안내.html'),

@@ -4,20 +4,11 @@
  *   허브는 모든 포트로 뿌리고, 스위치는 목적지 포트로만 보낸다 —
  *   이 차이를 말로 설명하는 대신 눈으로 보게 하는 것이 이 화면의 목적이다.
  *
- * Copyright 2026 trmoo
- * SPDX-License-Identifier: Apache-2.0
+ * © 2026 티쳐무 · 모든 권리 보유
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * 무단 배포 및 상업적 이용을 금합니다. 학교 수업 목적으로만 이용해 주세요.
+ * 그 밖의 이용(재배포·2차 저작물·수업 외 목적)은 먼저 문의해 주세요.
+ * 오픈소스 라이선스를 붙이지 않았습니다 — 자세한 내용은 LICENSE 파일을 보세요.
  * ========================================================================== */
 
 import { h, card, sheetHead, note, answer, quizSet, clear, shuffle } from '../../lib/ui.js';

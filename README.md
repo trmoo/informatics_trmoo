@@ -5,6 +5,8 @@
 
 > 설치도 인터넷도 필요 없습니다. **파이썬도 이 안에서 실제로 실행됩니다.**
 
+**🔗 바로 열기 → https://trmoo.github.io/informatics_trmoo/**
+
 ---
 
 ## 학생용 — 3줄 사용법
@@ -92,30 +94,18 @@ npm run build   # dist/index.html 한 파일로 빌드
 
 ---
 
-## 라이선스
+## 저작권 및 이용 범위
 
-이 프로젝트는 **Apache License 2.0** 을 따릅니다. 전문은 [LICENSE](LICENSE) 파일에 있습니다.
+**© 2026 티쳐무 · 모든 권리 보유**
 
-- 누구나 자유롭게 **쓰고, 고치고, 배포하고, 수업 자료로 활용**할 수 있습니다. 다른 학교에 나눠 주셔도 됩니다.
-- 대신 ① 저작권과 라이선스 표시를 남기고 ② 고친 파일에는 고쳤다는 표시를 하고
-  ③ [NOTICE](NOTICE) 파일의 내용을 함께 전달해 주세요.
-- 이 소프트웨어는 **아무런 보증 없이(AS IS)** 제공됩니다.
+- 이 저장소의 코드와 문서, 그리고 배포된 웹페이지의 **무단 배포 및 상업적 이용을 금합니다.**
+- **학교 수업 목적으로만** 이용해 주세요. 수업에서 학생에게 주소를 알려 주거나
+  `dist/index.html` 을 나눠 주는 것은 자유롭게 하셔도 됩니다.
+- 그 밖의 이용(재배포·2차 저작물·수업 외 목적)은 먼저 문의해 주세요.
+- 오픈소스 라이선스를 붙이지 않았습니다. 별도 허락이 없으면 저작권자가 모든 권리를 가집니다.
+  (`package.json` 의 `license` 는 npm 관례에 따라 `UNLICENSED` 로 두었습니다)
 
-```
-Copyright 2026 trmoo
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+자세한 내용은 [LICENSE](LICENSE) 파일을 보세요.
 
 ### 저장소·배포물에 포함되지 않는 것
 

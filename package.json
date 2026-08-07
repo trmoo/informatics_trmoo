@@ -4,8 +4,8 @@
   "description": "고등학교 1학년 「정보」 노트 실습실 — 학습지 ①~㉒ 인터랙티브 학습앱",
   "private": true,
   "type": "module",
-  "license": "Apache-2.0",
-  "author": "trmoo",
+  "license": "UNLICENSED",
+  "author": "티쳐무",
   "homepage": "https://trmoo.github.io/informatics_trmoo/",
   "repository": {
     "type": "git",
