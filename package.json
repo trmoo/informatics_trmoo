@@ -1,0 +1,24 @@
+{
+  "name": "informatics-note-lab",
+  "version": "1.0.0",
+  "description": "고등학교 1학년 「정보」 노트 실습실 — 학습지 ①~㉒ 인터랙티브 학습앱",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "trmoo",
+  "homepage": "https://trmoo.github.io/informatics_trmoo/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trmoo/informatics_trmoo.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}
